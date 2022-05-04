@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.bundle.js"></script>
+    <link rel="stylesheet" href="css/style.main.css"><!-- Own write file css/style.main.css -->
+</head>
+<body style="background-color: gray;">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a href="index.html" class="nav-brand">Car News</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+    
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <!-- Left Side Of Navbar -->
+                <ul class="navbar-nav mr-auto" id="nav">
+                    <li class="nav-item">
+                        <a class="nav-link text-success" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-success" href="#">Services</a>
+                    </li>
+
+                     <!-- Authentication Links -->
+                    <li class="nav-item">
+                        <a class="nav-link text-success" href="contact.html">Contact</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link text-success" href="#">About</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#" type="submit" data-bs-toggle="modal" id="login-btn" data-bs-target="#login-form" class="btn btn-primary">Login</a>
+                        <a href="#" type="submit" data-bs-toggle="modal" id="register-btn" data-bs-target="#register-form" class="btn btn-success">Register</a>
+                    </li>
+
+                </ul>
+                
+            
+        </div>
+ 
+    </nav>
+
+    <div class="container">
+        <div class="row" style="margin-bottom:45px;">
+            <h3 class="contactUs text-center text-white">Contact Us</h3>
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <img src="map/map1.jpg" class="img-card shadow-sm" alt="" width="100%" height="100%">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <form action="#" method="post">
+                            <div class="row">
+                                <p class="text-center">Do you have any problem.</p>
+                            </div>
+                            <div class="form-group">
+                                <label for="Name">Your Name</label>
+                                <input type="text" name="name" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Your Email</label>
+                                <input type="email" name="email" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label for="subject">Subject</label>
+                                <textarea name="subject" class="subject form-control"></textarea>
+                            </div>
+                            <br>
+                            <input type="submit" name="submit" class="btn btn-warning" value="Send">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Login Modal -->
+    <div class="modal fade" id="login-form">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title m-auto" id="login">Login</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form action="#" method="post">
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" name="email" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label for="Password">Password</label>
+                            <input type="password" name="password" class="form-control">
+                        </div>
+                        <br>
+                        <div class="form-group">
+                            <input type="submit" name="login" class="btn btn-primary" value="Login">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Register Modal -->
+    <div class="modal fade" id="register-form">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title m-auto" id="register">Register</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form action="#" method="post">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" name="name" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" name="email" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label for="Password">Password</label>
+                            <input type="password" name="password" class="form-control">
+                        </div>
+                        <br>
+                        <div class="form-group">
+                            <input type="submit" name="register" class="btn btn-success" value="Register">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer bg-dark text-white text-center shadow-sm">
+        <div class="container text-center">Copyright 2022, All right reserved! <br> <i> Develop by Aung Myo Than.</i></div> 
+    </div>
+
+    <script src="js/modal.js"></script>
+</body>
+</html>

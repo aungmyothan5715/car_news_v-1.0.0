@@ -1,0 +1,60 @@
+.nav-brand{
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    font-size: 22px;
+    font-weight: bold;
+    text-decoration: none;
+    list-style-type: none;
+    color:green;
+}
+.nav-brand:hover{
+    font-size: 23px;
+}
+
+a.nav-link{
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    font-size: 20px;
+}
+a.nav-link:hover{
+    font-size: 18px;
+}
+ul.navbar-nav{
+    padding-left: 25px;
+}
+a.btn{
+    line-height: 32px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
+}
+.contactUs{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 900;
+    font-style: italic;
+    margin-top:45px;
+    padding: 10px;
+}
+textarea.subject{
+    height:131px;
+}
+#login{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: blue;
+}
+#register{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color:green;
+}
+.footer{
+    margin: 0px;
+    padding: 0px;
+}
+.footer{
+    margin-bottom: 0px;
+}
+.footer div.container{
+    padding: 15px;
+}
+
